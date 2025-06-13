@@ -15,5 +15,4 @@ namespace C_23052025_RUD.Pages.Models
         public string Mail  { get; set; } // Ej: Presencia, virtual, hibrida
     }
 }
-    }
-}
+    

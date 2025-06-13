@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using C_23052025_RUD.Servicios;
 
 namespace C_23052025_RUD.Models
 {
