@@ -1,8 +1,7 @@
 ﻿@page
-@model C_23052025_RUD.Pages.Alumnos.DeleteModel
+@model C_23052025_RUD.Pages.Alumnos.DelateModel
 @{
 }
-
 <input type="hidden" asp-for="Alumno.Id" />
 
 <form method="post">
@@ -11,13 +10,16 @@
         <strong>Name:</strong> @Model.Alumno.Nombre
     </div>
     <div>
-        <strong>Modality:</strong> @Model.Alumno.Modalidad
+        <strong>Surname:</strong> @Model.Alumno.Apellido
     </div>
     <div>
-        <strong>Duration:</strong> @Model.Alumno.Duracionaños
+        <strong>N° ID:</strong> @Model.Alumno.Dni
     </div>
     <div>
-       <strong>Title awarded:</strong> @Model.Alumno.Titulootorgado
+        <strong>E-mail:</strong> @Model.Alumno.Ce
+    </div>
+    <div>
+        <strong>Date Of Birth:</strong> @Model.Alumno.Fn
     </div>
 
     <br />
